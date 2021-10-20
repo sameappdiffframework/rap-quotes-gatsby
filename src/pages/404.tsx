@@ -1,22 +1,22 @@
-import * as React from "react"
+import React, { CSSProperties } from "react";
 import { Link } from "gatsby"
 
 // styles
-const pageStyles = {
+const pageStyles: CSSProperties = {
   color: "#232129",
   padding: "96px",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
-const headingStyles = {
+const headingStyles: CSSProperties = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 320,
 }
 
-const paragraphStyles = {
+const paragraphStyles: CSSProperties = {
   marginBottom: 48,
 }
-const codeStyles = {
+const codeStyles: CSSProperties = {
   color: "#8A6534",
   padding: 4,
   backgroundColor: "#FFF4DB",
@@ -25,7 +25,7 @@ const codeStyles = {
 }
 
 // markup
-const NotFoundPage = () => {
+const NotFoundPage = (): JSX.Element => {
   return (
     <main style={pageStyles}>
       <title>Not found</title>
