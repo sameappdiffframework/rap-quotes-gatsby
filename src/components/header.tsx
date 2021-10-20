@@ -2,13 +2,13 @@ import { Link } from 'gatsby';
 import React from 'react';
 import './header.css';
 
-export default function Header() {
+export default function Header({ onCreateClick }: { onCreateClick: () => void }) {
     return (
         <header>
             <nav>
                 <ul className="no-bullets">
                     <li>
-                        <button>Create quote</button>
+                        <button onClick={onCreateClick}>Create quote</button>
                     </li>
                     <li>
                         <Link to="/">All quotes</Link>
