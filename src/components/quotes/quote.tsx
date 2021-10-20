@@ -1,4 +1,4 @@
-import '../components/quote.css';
+import './quote.css';
 import React from 'react';
 import { QuoteModel } from './quote-model';
 

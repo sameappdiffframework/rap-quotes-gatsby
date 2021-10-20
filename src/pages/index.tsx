@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from '../components/layout';
-import Quote from '../components/quote';
-import { QuoteModel } from "../components/quote-model";
-import JSONData from "../components/quotes.json"
+import Quote from '../components/quotes/quote';
+import { QuoteModel } from "../components/quotes/quote-model";
+import JSONData from "../components/quotes/quotes.json"
 
 const quotes: QuoteModel[] = JSONData;
 const IndexPage = (): JSX.Element => {

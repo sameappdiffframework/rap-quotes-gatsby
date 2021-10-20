@@ -1,0 +1,4 @@
+textarea.error, textarea.error:focus,
+input[type].error, input[type].error:focus {
+    border: 1px solid indianred;
+}
