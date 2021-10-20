@@ -33,7 +33,7 @@ figcaption {
     flex-basis: 20%;
 }
 
-.album {
+figure img {
     flex-basis: 20%;
     min-width: 7.25em;
     width: 7.25em;
@@ -45,7 +45,7 @@ figcaption {
 }
 
 @media only screen and (min-width: 600px) {
-    .album {
+    figure img {
         margin: 0 1.875em 0 -3.625em;
     }
 }
