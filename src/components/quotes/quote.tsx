@@ -1,6 +1,6 @@
 import './quote.css';
 import React from 'react';
-import { QuoteModel } from './quote-model';
+import type { QuoteModel } from './quote-model';
 
 export default function Quote({ quote }: { quote: QuoteModel }) {
     return (
